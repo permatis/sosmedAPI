@@ -8,7 +8,7 @@
 		<li class=""><a href="posts">Post Products</a></li>	
 		<li class=""><a href="setting/accounts">Setting Accounts</a></li>	
 	</ul>
-	
+
 	<h2>Input your posts</h2>
 	<form method="post" action="/posts">	
 		{{ csrf_field() }}
@@ -24,3 +24,4 @@
 
 </body>
 </html>
+
